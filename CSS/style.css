@@ -1,5 +1,7 @@
 
-
+.flexContainer {
+    display: flex;
+}
 
 .green {
     text-align: right;
@@ -12,17 +14,26 @@
 
 p { 
     text-align: center;
+    color: brown;
+
 }
 
-p {
-    color: saddlebrown;
-}
-
-p {
-    text-align: center;
+.caseStudies{
+    background-color:pink;
+    height: 300px;
+    
 }
     
 .footer {
     width:500px;
        margin: 0 auto;
+    }
+    
+    .nav{
+        text-color: pink;
+    }
+
+    .about-me {
+        display: flex;
+
     }
